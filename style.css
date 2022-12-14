@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 90px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;  
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+.first-container {
+  background-color: #1F2937;  
+  padding: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: antiquewhite;
+    padding: 7px 20px;
+    font-weight: 900;
+    border-radius: 8px;
+    border: 0px;
+    margin: 0;
+}
+
+button:hover {
+    color: black;
+}
+
+
+#capy1 {
+    height: 200px;
+    width: 380px;
+    border-radius: 0%;
+    border: none;
+}
+
+.main-text {
+    margin: 2px;
+    display: flex;
+    max-width: 450px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+p {
+    margin-top: 2px;
+}
+ 
+p.big-text {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+p.long-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.second-container {
+    color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+
+img {
+    height: 140px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    
+}
+
+
+.text {
+    text-align: center;
+    max-width: 150px;
+    color: rgb(73, 72, 72);
+    
+}
+
+p.header2 {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.third-container {
+    background-color: #E5E7EB;
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+ 
+p.quote {
+    font-size: 36px;
+    font-style: italic;
+    width: 700px;
+}
+
+
+ 
+ 
