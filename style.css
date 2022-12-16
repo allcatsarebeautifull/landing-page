@@ -135,8 +135,42 @@ p.quote {
     font-size: 36px;
     font-style: italic;
     width: 700px;
+    
 }
 
+p.anon {
+    margin-left: 450px;
+    font-weight: bold;
+}
 
+ .fourth-container {
+    background-color: #3882F6;
+    width: 850px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 75px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
  
+ .call-to-action {
+    padding: 20px;
+ }
+
+ .sign-up1 {
+    border: 2px solid white;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
+
