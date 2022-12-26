@@ -5,13 +5,21 @@ body {
 }
 
 
+#logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #1F2937;
-    gap: 90px;
+    background-color: #4a3163;
+    gap: 100px;
 }
 
 ul {
@@ -27,11 +35,11 @@ a {
 }
 
 a:hover {
-    color: forestgreen;
+    color:  forestgreen;
 }
 
 .first-container {
-  background-color: #1F2937;  
+  background-color: #4a3163;  
   padding: 70px;
   display: flex;
   justify-content: space-evenly;
@@ -40,13 +48,14 @@ a:hover {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #316341;
     color: antiquewhite;
     padding: 7px 20px;
     font-weight: 900;
     border-radius: 8px;
     border: 0px;
     margin: 0;
+    border: 1px solid #9e8c83;
 }
 
 button:hover {
@@ -56,7 +65,7 @@ button:hover {
 
 #capy1 {
     height: 200px;
-    width: 380px;
+    width: 350px;
     border-radius: 0%;
     border: none;
 }
@@ -98,7 +107,7 @@ p.long-text {
 img {
     height: 140px;
     width: 150px;
-    border: 2px solid #3882F6;
+    border: 2px solid #145c2b;
     border-radius: 10px;
     
 }
@@ -144,7 +153,7 @@ p.anon {
 }
 
  .fourth-container {
-    background-color: #3882F6;
+    background-color: #4a3163;
     width: 850px;
     color: white;
     display: flex;
@@ -157,20 +166,23 @@ p.anon {
 }
  
  .call-to-action {
-    padding: 20px;
+   padding: 10px;
  }
 
  .sign-up1 {
-    border: 2px solid white;
-    
+    border: 1px solid #9e8c83;
+    margin-left: 80px;
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #4a3163;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
  
-
+.news {
+    font-weight: bold;
+    margin-top: 6px;
+}
